@@ -1,0 +1,179 @@
+body {
+        color:#e0e0e0;
+        font-weight:700;
+        background-repeat:no-repeat;
+        background-size:fill;
+        background-size: cover;
+}
+
+.tops{
+  color:#e0e0e0;
+  background-color: #646566;
+  text-align: center;
+  font-size: 40px;
+  border-radius:10px;
+  font-family: Fette Fraktur;
+  border-style:solid;
+  border-width:5px;
+  border-color:#e0e0e0;
+  margin: 10px;
+}
+
+.nav {
+    background-color: #646566;
+}
+
+li {
+    font-size:30px;
+    color: #e0e0e0;
+    font-family: Fette Fraktur;
+}
+
+.actors2{
+  max-width:750px;
+  margin:5px;
+  color:#e0e0e0;
+  background-color: #646566;
+  font-size: 40px;
+  border-radius:10px;
+  font-family: Fette Fraktur;
+  border-style:solid;
+  border-width:5px;
+  border-color:#e0e0e0;
+  text-align: center;
+}
+
+.actors{
+  max-width:750px;
+  margin:5px;
+  color:#e0e0e0;
+  background-color: #646566;
+  text-align: center;
+  font-size: 50px;
+  border-radius:10px;
+  font-family: Fette Fraktur;
+  border-style:solid;
+  border-width:5px;
+  border-color:#e0e0e0;
+}
+
+.actors3{
+  max-width:300px;
+  margin:5px;
+  color:#e0e0e0;
+  background-color: #646566;
+  text-align: center;
+  font-size: 40px;
+  border-radius:10px;
+  font-family: Fette Fraktur;
+  text-align: center;
+  border-style:solid;
+  border-width:5px;
+  border-color:#e0e0e0;
+}
+
+.work {
+  max-width:750px;
+  margin:auto;
+}
+
+.worked{
+  max-width:1250px;
+  margin:auto;
+}
+
+#music {
+  max-width:400px;
+  margin:auto;
+}
+
+.jumbotron {
+    background: #646566;
+    border-radius:10px;
+    border-style:solid;
+    border-width:5px;
+    border-color:#e0e0e0;
+}
+
+.navbar{
+  color:#e0e0e0;
+}
+
+.title{
+max-width:625px;
+font-size: 80px;
+background-color: #646566;
+text-align: center;
+border-radius:10px;
+font-family: Fette Fraktur;
+text-align: center;
+border-style:solid;
+border-width:5px;
+border-color:#e0e0e0;
+}
+
+#review {
+  max-width:1250px;
+  margin:auto;
+}
+
+.small{
+  max-width:750px;
+  margin:5px;
+  color:#e0e0e0;
+  background-color: #646566;
+  text-align: center;
+  font-size: 30px;
+  border-radius:10px;
+  font-family: Fette Fraktur;
+  border-style:solid;
+  border-width:5px;
+  border-color:#e0e0e0;
+}
+
+.imag {
+  width:60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.please{
+  max-width:1500px;
+}
+.titles{
+    max-width:1100px;
+    font-size: 80px;
+    background-color: #646566;
+    text-align: center;
+    border-radius:10px;
+    font-family: Fette Fraktur;
+    text-align: center;
+    border-style:solid;
+    border-width:5px;
+    border-color:#e0e0e0;
+}
+  .topi {
+    border-style:solid;
+    border-width:5px;
+    border-color:#e0e0e0;
+    max-width:675px;
+  }
+.box{
+  border-style:solid;
+  border-width:5px;
+  border-color:#e0e0e0;
+  max-width:635px;
+}
+
+.actori{
+  border-style:solid;
+  border-width:5px;
+  border-color:#e0e0e0;
+  max-width:635px;
+  width:345px;
+}
+.rei {
+  max-width:635px;
+  width:345px;
+}
