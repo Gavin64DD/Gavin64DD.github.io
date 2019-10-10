@@ -1,0 +1,154 @@
+body {
+  margin: 100px;
+  background-repeat:no-repeat;
+  background-size: 5000px;
+  background-position: center;
+}
+
+.me {
+  width: 700px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: medium;
+  text-align: center;
+}
+
+#about {
+  color: white;
+  background-color: #990000;
+  text-align: center;
+  font-size: 59px;
+  border-style: solid;
+  border-color: yellow;
+}
+
+.title {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  background-color: #990000;
+  border-style: solid;
+  border-color: yellow;
+}
+
+.titlea {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  background-color: #990000;
+  border-style: solid;
+  border-color: yellow;
+}
+
+iframe {
+  width: 750px;
+  height: 800px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: medium;
+}
+
+#first {
+  text-align: center;
+}
+
+#firstt {
+  text-align: center;
+  background-color: #990000;
+  color: white;
+  font-size: 59px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: medium;
+}
+
+#xeno {
+  text-align: center;
+}
+
+#xenot {
+  text-align: center;
+  background-color: #990000;
+  color: white;
+  font-size: 59px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: medium;
+}
+
+#city {
+  text-align: center;
+}
+
+#cityt {
+  text-align: center;
+  background-color: #990000;
+  color: white;
+  font-size: 59px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: medium;
+}
+
+a {
+  color: yellow;
+}
+
+#vania {
+  text-align: center;
+}
+
+#vaniat {
+  text-align: center;
+  background-color: #990000;
+  color: white;
+  font-size: 59px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: medium;
+}
+
+#bad {
+  text-align: center;
+}
+
+#badt {
+  text-align: center;
+  background-color: #990000;
+  color: white;
+  font-size: 59px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: medium;
+}
+
+.unitt{
+  text-align: center;
+  font-size: 1000px;
+  color: white;
+  background-color: #990000;
+  font-size: 59px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: medium;
+}
+
+.link{
+  text-align: center;
+  font-size: 5000px;
+  color: white;
+  background-color: #990000;
+  font-size: 59px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: medium;
+}
+
+.nav {
+    background-color:darkred;
+    font-size: 45px;
+    color: white;
+    border-color: yellow;
+    border-style: solid;
+    border-width: medium;
+}
