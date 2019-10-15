@@ -197,3 +197,13 @@ a {
   border-style: solid;
   border-width: medium;
 }
+
+
+.nav {
+    background-color:darkred;
+    font-size: 45px;
+    color: white;
+    border-color: yellow;
+    border-style: solid;
+    border-width: medium;
+}
