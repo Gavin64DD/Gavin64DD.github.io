@@ -1,50 +1,46 @@
 body {
   margin: 100px;
-  background-repeat:no-repeat;
-  background-size: 5000px;
-  background-position: center;
+  background-color:black;
 }
 
 .me {
   width: 700px;
   border-style: solid;
-  border-color: yellow;
+  border-color: #d940ff;
   border-width: medium;
   text-align: center;
 }
 
 #about {
-  color: white;
-  background-color: #990000;
+  color: #d940ff;
+  background-color: ;
   text-align: center;
   font-size: 59px;
   border-style: solid;
-  border-color: yellow;
+  border-color: #d940ff;
 }
 
 .title {
-  color: white;
+  color: yellow;
   font-size: 70px;
   text-align: center;
-  background-color: #990000;
+  background-color: black;
   border-style: solid;
-  border-color: yellow;
+  border-color: black;
 }
 
 .titlea {
-  color: white;
+  color: yellow;
   font-size: 70px;
   text-align: center;
-  background-color: #990000;
-  border-style: solid;
-  border-color: yellow;
+  background-color: black;
 }
 
 iframe {
   width: 750px;
   height: 800px;
   border-style: solid;
-  border-color: yellow;
+  border-color: #d940ff;
   border-width: medium;
 }
 
@@ -54,10 +50,10 @@ iframe {
 
 #firstt {
   text-align: center;
-  background-color: #990000;
-  color: white;
+  background-color: black;
+  color: #d940ff;
   font-size: 59px;
-  border-color: yellow;
+  border-color: #d940ff;
   border-style: solid;
   border-width: medium;
 }
@@ -68,10 +64,10 @@ iframe {
 
 #xenot {
   text-align: center;
-  background-color: #990000;
-  color: white;
+  background-color: black;
+  color: #d940ff;
   font-size: 59px;
-  border-color: yellow;
+  border-color: #d940ff;
   border-style: solid;
   border-width: medium;
 }
@@ -82,10 +78,10 @@ iframe {
 
 #cityt {
   text-align: center;
-  background-color: #990000;
-  color: white;
+  background-color: black;
+  color: #d940ff;
   font-size: 59px;
-  border-color: yellow;
+  border-color: #d940ff;
   border-style: solid;
   border-width: medium;
 }
@@ -100,10 +96,10 @@ a {
 
 #vaniat {
   text-align: center;
-  background-color: #990000;
-  color: white;
+  background-color: black;
+  color: #d940ff;
   font-size: 59px;
-  border-color: yellow;
+  border-color: #d940ff;
   border-style: solid;
   border-width: medium;
 }
@@ -114,10 +110,10 @@ a {
 
 #badt {
   text-align: center;
-  background-color: #990000;
-  color: white;
+  background-color: black;
+  color: #d940ff;
   font-size: 59px;
-  border-color: yellow;
+  border-color: #d940ff;
   border-style: solid;
   border-width: medium;
 }
@@ -125,10 +121,10 @@ a {
 .unitt{
   text-align: center;
   font-size: 1000px;
-  color: white;
-  background-color: #990000;
+  color: #d940ff;
+  background-color: black;
   font-size: 59px;
-  border-color: yellow;
+  border-color: #d940ff;
   border-style: solid;
   border-width: medium;
 }
@@ -136,19 +132,19 @@ a {
 .link{
   text-align: center;
   font-size: 5000px;
-  color: white;
-  background-color: #990000;
+  color: #d940ff;
+  background-color: black;
   font-size: 59px;
-  border-color: yellow;
+  border-color: #d940ff;
   border-style: solid;
   border-width: medium;
 }
 
 .nav {
-    background-color:darkred;
+    background-color:black;
     font-size: 45px;
-    color: white;
-    border-color: yellow;
+    color: #d940ff;
+    border-color: #d940ff;
     border-style: solid;
     border-width: medium;
 }
