@@ -198,10 +198,10 @@ a {
   border-width: medium;
 }
 .nav {
-    background-color:black;
+    background-color:darkred;
     font-size: 45px;
     color: #d940ff;
-    border-color: #d940ff;
+    border-color: yellow;
     border-style: solid;
     border-width: medium;
 }
