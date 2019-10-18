@@ -31,14 +31,13 @@ body {
 
 .titlea {
   color: yellow;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   background-color: black;
 }
 
-iframe {
-  width: 750px;
-  height: 800px;
+img {
+  width: 100%;
   border-style: solid;
   border-color: #d940ff;
   border-width: medium;
