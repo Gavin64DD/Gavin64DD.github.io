@@ -1,7 +1,7 @@
 body {
   margin: 100px;
   background-repeat:no-repeat;
-  background-size: 5500px;
+  background-size: 5000px;
   background-position: center;
 }
 
@@ -196,14 +196,4 @@ a {
   border-color: white;
   border-style: solid;
   border-width: medium;
-}
-
-
-.nav {
-    background-color:darkred;
-    font-size: 45px;
-    color: white;
-    border-color: yellow;
-    border-style: solid;
-    border-width: medium;
 }
