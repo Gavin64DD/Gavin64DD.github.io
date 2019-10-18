@@ -197,3 +197,11 @@ a {
   border-style: solid;
   border-width: medium;
 }
+.nav {
+    background-color:black;
+    font-size: 45px;
+    color: #d940ff;
+    border-color: #d940ff;
+    border-style: solid;
+    border-width: medium;
+}
