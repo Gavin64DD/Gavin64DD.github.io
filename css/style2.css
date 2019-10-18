@@ -4,7 +4,7 @@ body {
 }
 
 .me {
-  width: 700px;
+  width: 100%;
   border-style: solid;
   border-color: #d940ff;
   border-width: medium;
