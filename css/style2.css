@@ -1,11 +1,10 @@
 body {
-  margin: 100px;
   background-color:black;
   font-family: "Times New Roman", Times, serif;
 }
 
 .me {
-  width: 100%;
+  width: 700px;
   border-style: solid;
   border-color: #d940ff;
   border-width: medium;
@@ -32,9 +31,8 @@ body {
 
 .titlea {
   color: yellow;
-  font-size: 50px;
+  font-size: 250px !important;
   text-align: center;
-  background-color: black;
 }
 
 img {
@@ -147,4 +145,12 @@ a {
     border-color: #d940ff;
     border-style: solid;
     border-width: medium;
+}
+
+.jumbotron {
+  background-image: url("../img/Background.jpg") !important;
+  background-repeat: no-repeat;
+  width:100%;
+  border-style: solid;
+  border-color: #d940ff;
 }
