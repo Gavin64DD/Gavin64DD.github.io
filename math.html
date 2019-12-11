@@ -6,8 +6,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <link rel="stylesheet" type="text/css" href="css/stylem.css">
-      <link rel="icon" href="favicon.ico" type="image/x-icon"/ >
+      <link rel="stylesheet" type="text/css" href="css/style.css">
       <title>Calculator</title>
     </head>
     <body>
@@ -18,11 +17,11 @@
         <div class="container-fluid">
         <div class="row">
 
-          <div class="col-xs-3">
+          <div class="col-xs-4">
             <p></p>
           </div>
 
-        <div class="col-xs-6">
+        <div class="col-xs-4 entire">
 
           <header>
             <p id="title">Tip Calculator</p>
@@ -32,19 +31,18 @@
 
   <br>
 
-          $ <input type="text" id="box" placeholder="Bill Amount"/>
+          <div> $ <input type="text" id="billAmount" class placeholder="Bill Amount"/></div>
 
         <br>
-        <br>
 
-          <p>How was your service</p>
+<p>How was your service</p>
 
-          <select>
+          <select id="service">
             <option disabled selected>--Choose an Option--</option>
-            <option value="5%">Poisoned</option>
-            <option value="10%">Okay</option>
-            <option value="15%">Good</option>
-            <option value="20%">Epic :dab:</option>
+            <option value="1.05">Icky 5% Tip</option>
+            <option value="1.1">Okay 10% Tip</option>
+            <option value="1.15">Good 15% Tip</option>
+            <option value="1.2">Epic 20% Tip</option>
           </select>
 
           <br>
@@ -52,14 +50,22 @@
 
 <p>How many people are sharing the bill</p>
 
-<input type="text" id="box" placeholder="Number of People" /> people
+<div><input type="text" class  id="people" placeholder="Number of People" /> people</div>
 
         <br>
         <br>
 
 <button id="cal">Calculate!</button>
 
-<div class="col-xs-3">
+<br>
+<br>
+
+<div id="totalTip">
+  <sup>$</sup><span id="tip">0.00</span>
+  <small id="each">each</small>
+</div>
+
+<div class="col-xs-4">
   <p></p>
 </div>
 
@@ -79,5 +85,38 @@
         </div>
         </div>
         </div>
+
+  <script type="text/javascript">
+  function calculateTip() {
+    var billAmount = document.getElementById("billAmount").value;
+    var service = document.getElementById("service").value;
+    var people = document.getElementById("people").value;
+
+      if (billAmount === "" || billAmount <= 0.01) {
+      alert("Only Numbers");
+      return;
+}
+      if (people === "" || people <= 1) {
+        people = 1;
+        document.getElementById("each").style.display = "none";
+      } else {
+        document.getElementById("each").style.display = "block";
+      }
+
+      var total = (billAmount * service) / people;
+      total = Math.round(total * 100) / 100;
+      total = total.toFixed(2);
+
+    document.getElementById("totalTip").style.display = "block";
+    document.getElementById("tip").innerHTML = total;
+}
+    document.getElementById("totalTip").style.display = "none";
+    document.getElementById("each").style.display = "none";
+
+    document.getElementById("cal").onclick = function(){
+      calculateTip();
+    };
+console.log("total");
+  </script>
     </body>
 </html>
