@@ -45,3 +45,12 @@ select {
 p {
     text-align: left !important;
 }
+
+.nav {
+    background-color:darkred;
+    font-size: 45px;
+    color: yellow;
+    border-color: yellow;
+    border-style: solid;
+    border-width: medium;
+}
