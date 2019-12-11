@@ -9,3 +9,12 @@ body {
   border: 1px solid #ccc;
   padding: 0px 5px 0px 5px;
 }
+
+.nav {
+    background-color:darkred;
+    font-size: 45px;
+    color: yellow;
+    border-color: yellow;
+    border-style: solid;
+    border-width: medium;
+}
