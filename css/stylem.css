@@ -47,10 +47,10 @@ p {
 }
 
 .nav {
-    background-color:darkred;
+    background-color: white;
     font-size: 45px;
-    color: yellow;
-    border-color: yellow;
+    color: #301934;
+    border-color: #301934;
     border-style: solid;
     border-width: medium;
 }
