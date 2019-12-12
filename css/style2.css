@@ -6,18 +6,18 @@ body {
 .me {
   width: 700px;
   border-style: solid;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-width: medium;
   text-align: center;
 }
 
 #about {
-  color: #d940ff;
+  color: #11ccee;
   background-color: ;
   text-align: center;
   font-size: 59px;
   border-style: solid;
-  border-color: #d940ff;
+  border-color: #11ccee;
 }
 
 .title {
@@ -38,7 +38,7 @@ body {
 img {
   width: 100%;
   border-style: solid;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-width: medium;
 }
 
@@ -49,9 +49,9 @@ img {
 #firstt {
   text-align: center;
   background-color: black;
-  color: #d940ff;
+  color:#11ccee;
   font-size: 59px;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-style: solid;
   border-width: medium;
 }
@@ -63,7 +63,7 @@ img {
 #xenot {
   text-align: center;
   background-color: black;
-  color: #d940ff;
+  color: #11ccee;
   font-size: 59px;
   border-color: #d940ff;
   border-style: solid;
@@ -77,9 +77,9 @@ img {
 #cityt {
   text-align: center;
   background-color: black;
-  color: #d940ff;
+  color: #11ccee;
   font-size: 59px;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-style: solid;
   border-width: medium;
 }
@@ -95,9 +95,9 @@ a {
 #vaniat {
   text-align: center;
   background-color: black;
-  color: #d940ff;
+  color: #11ccee;
   font-size: 59px;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-style: solid;
   border-width: medium;
 }
@@ -109,9 +109,9 @@ a {
 #badt {
   text-align: center;
   background-color: black;
-  color: #d940ff;
+  color: #11ccee;
   font-size: 59px;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-style: solid;
   border-width: medium;
 }
@@ -119,10 +119,10 @@ a {
 .unitt{
   text-align: center;
   font-size: 1000px;
-  color: #d940ff;
+  color: #11ccee;
   background-color: black;
   font-size: 59px;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-style: solid;
   border-width: medium;
 }
@@ -130,10 +130,10 @@ a {
 .link{
   text-align: center;
   font-size: 5000px;
-  color: #d940ff;
+  color: #11ccee;
   background-color: black;
   font-size: 59px;
-  border-color: #d940ff;
+  border-color: #11ccee;
   border-style: solid;
   border-width: medium;
 }
@@ -141,8 +141,8 @@ a {
 .nav {
     background-color:black;
     font-size: 45px;
-    color: #d940ff;
-    border-color: #d940ff;
+    color: #11ccee;
+    border-color: #11ccee;
     border-style: solid;
     border-width: medium;
 }
@@ -152,5 +152,5 @@ a {
   background-repeat: no-repeat;
   width:100%;
   border-style: solid;
-  border-color: #d940ff;
+  border-color: #11ccee;
 }
