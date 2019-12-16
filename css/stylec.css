@@ -1,7 +1,7 @@
 body {
   background-color: black;
  
-#MyClockDisplay {
+#clock {
   color: orange;
   position: absolute;
   top: 50%;
