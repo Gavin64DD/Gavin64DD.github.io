@@ -147,10 +147,9 @@ a {
 }
 
 .jumbotron {
-  background-image: url("../img/Background.jpg") !important;\
   background-size: cover;
   background-repeat: no-repeat;
-  width:100%;
+  width:100px;
   border-style: solid;
   border-color: #11ccee;
 }
